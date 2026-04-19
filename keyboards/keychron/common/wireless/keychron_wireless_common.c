@@ -296,7 +296,7 @@ void wireless_pre_task(void) {
                     set_transport(TRANSPORT_BLUETOOTH);
                     break;
 #    else
-                case 0x01:
+                case 0x00:
                     set_transport(TRANSPORT_BLUETOOTH);
                     break;
                 case 0x02:
